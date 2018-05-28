@@ -12,7 +12,8 @@ end
 
 def long_planeteer_calls(array)
   array.any? do |i|
-    i 
+    i.size > 4
+  end 
 end
 
 def find_the_cheese# code an argument here
